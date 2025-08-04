@@ -60,22 +60,25 @@
       <div class="contact">
         <div class="contact-form">
           <form action="https://api.web3forms.com/submit" method="POST">
-            
             <div class="row">
               <div class="input50">
                 <input type="hidden" name="access_key" value="6d28cdd9-94fc-4267-beca-bcb026e4f1d8">
-                <input type="text" placeholder="First Name" />
-              </div>
-              <div class="input50">
-                <input type="text" placeholder="Last Name" />
               </div>
             </div>
             <div class="row">
               <div class="input50">
-                <input type="text" placeholder="Email" />
+                <input type="text" placeholder="First Name" required />
               </div>
               <div class="input50">
-                <input type="text" placeholder="Subject" />
+                <input type="text" placeholder="Last Name" required />
+              </div>
+            </div>
+            <div class="row">
+              <div class="input50">
+                <input type="text" placeholder="Email" required />
+              </div>
+              <div class="input50">
+                <input type="text" placeholder="Subject" required/>
               </div>
             </div>
             <div class="row">
@@ -83,11 +86,23 @@
                 <textarea placeholder="Message"></textarea>
               </div>
             </div>
+
             <div class="row">
               <div class="input100">
                 <input type="submit" value="Send" />
               </div>
             </div>
+
+
+              
+
+    <!-- Custom Confirmation / Success Page -->
+    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+            <div class="row">
+              <div class="input100">
+                <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html">
+              </div>
+             </div>
           </form>
         </div>
 
