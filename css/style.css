@@ -67,6 +67,7 @@ section.home {
   z-index: 20;
   text-decoration: none;
   color: inherit;
+  margin-bottom: 40px;
 }
 
 /* TOGGLE */
@@ -362,6 +363,7 @@ section.home {
   .contact-form {
     width: 100%;
     padding: 30px 30px 20px;
+    margin-bottom: 40px;
   }
 
   .contact-form .row {
