@@ -258,6 +258,7 @@ section.home {
   background: #f9f9f9;
   width: calc(100% - 400px);
   padding: 60px 40px 20px;
+  margin-bottom: 40;
 }
 
 .contact-form form {
@@ -313,6 +314,8 @@ section.home {
   width: 350px;
   background: #f9f9f9;
   padding: 60px 40px 20px;
+  margin-top: 40;
+  margin-bottom: 40;
 }
 
 .contact-info .info-box {
