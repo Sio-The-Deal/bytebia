@@ -58,7 +58,7 @@ section.home {
   transform: scale(0.98);
 }
 
-.logo {
+.logo a {
   position: absolute;
   top: 30px;
   left: 100px;
