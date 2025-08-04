@@ -59,51 +59,46 @@
       </div>
       <div class="contact">
         <div class="contact-form">
-          <form action="https://api.web3forms.com/submit" method="POST">
-            <div class="row">
-              <div class="input50">
-                <input type="hidden" name="access_key" value="6d28cdd9-94fc-4267-beca-bcb026e4f1d8">
-              </div>
-            </div>
-            <div class="row">
-              <div class="input50">
-                <input type="text" placeholder="First Name" required />
-              </div>
-              <div class="input50">
-                <input type="text" placeholder="Last Name" required />
-              </div>
-            </div>
-            <div class="row">
-              <div class="input50">
-                <input type="text" placeholder="Email" required />
-              </div>
-              <div class="input50">
-                <input type="text" placeholder="Subject" required/>
-              </div>
-            </div>
-            <div class="row">
-              <div class="input100">
-                <textarea placeholder="Message"></textarea>
-              </div>
+
+          <section class="contact-section">
+            <div class="contact-intro">
+              <h2 class="contact-title">Get in Touch</h2>
+              <p class="contact-description">
+                Fill out the form below and we'll get back to you as soon as possible.
+              </p>
             </div>
 
-            <div class="row">
-              <div class="input100">
-                <input type="submit" value="Send" />
-              </div>
-            </div>
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
 
+              <input type="hidden" name="access_key" value="6d28cdd9-94fc-4267-beca-bcb026e4f1d8" >
+              <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+              <input type="hidden" name="from_name" value="Bytebia"/>
 
-              
+              <div class="form-group-container">
+                <div class="form-group">
+                  <label for="name" class="form-label">First Name</label>
+                  <input id="name" name="name" class="form-input" placeholder="Your first name" type="text" required />
+                </div>
+                <div class="form-group">
+                  <label for="name" class="form-label">Surname</label>
+                  <input id="name" name="name" class="form-input" placeholder="Your lastname" type="text" required />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Email</label>
+                  <input id="email" name="email" class="form-input" placeholder="Your email" type="email" required />
+                </div>
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone</label>
+                  <input id="phone" name="phone" class="form-input" placeholder="Your Phone Numer" type="text" required />
+                </div>
+                <div class="form-group">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+                </div>
+              <button class="form-submit" type="submit">Send Message</button>
+            </form>
 
-    <!-- Custom Confirmation / Success Page -->
-    <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
-            <div class="row">
-              <div class="input100">
-                <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html">
-              </div>
-             </div>
-          </form>
+          </section>
         </div>
 
         <div class="contact-info">
